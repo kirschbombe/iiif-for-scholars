@@ -1,5 +1,6 @@
 ## IIIF for Scholars: Sharing, Consuming, and Annotating the World’s Images
 Wednesday, May 8, 2019 - 11:00am to 1:00pm
+
 Research Library (Charles E. Young)Research Commons (RC) Classroom
 
 Slides: https://docs.google.com/presentation/d/1Zwl4WrGEQybS_bq2oFpjHdfAuc66fNjbVxFlyjX8meM/edit#slide=id.g48a2113b32_0_167
@@ -26,4 +27,13 @@ In this workshop, participants will learn basic IIIF concepts and technologies, 
 https://iiif.io/api/image/2.1/#image-information
 
 ### Hands-on: Leaflet-IIIF
-* 
+* First we'll need to make sure GitHub Pages is activated on ur forked repository
+    * In GitHub repo, go to the **Settings** tab, then scroll down to the GitHub Pages section and choose `Master branch` from the **Source** pull-down menu
+    * Test GitHub Pages by copying the "Your site is published at" URL and pasting into a browser window. You should see a page that says "IIIF Workshop @ UCLA"
+    * If you add `/leaflet` to the site URL, you should see the Leaflet-IIIF viewer in action.
+* Our Leaflet-IIIF application is in our repo in the `leaflet` folder.
+    * Open and inspect the `leaflet.js` file
+    * How would you display another IIIF-hosted image?
+    * Replace the existing IIIF image with a different one (hint: you can use our e-codices example)
+    * Look at the javascript - what are we telling Leaflet-IIIF to do with the image?
+    * Notice the section of the `leaflet.js` file where you can layer two different images. Why might we want to do that?
