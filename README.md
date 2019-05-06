@@ -37,3 +37,9 @@ https://iiif.io/api/image/2.1/#image-information
     * Replace the existing IIIF image with a different one (hint: you can use our e-codices example)
     * Look at the javascript - what are we telling Leaflet-IIIF to do with the image?
     * Notice the section of the `leaflet.js` file where you can layer two different images. Why might we want to do that?
+
+### Explore: IIIF Manifests
+
+### Hands-on: Building a Manifest
+
+### Hands-on: Set up your own Mirador
