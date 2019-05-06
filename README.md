@@ -8,13 +8,22 @@ Access to image-based resources (manuscripts, artworks, maps, etc.) is fundament
 
 In this workshop, participants will learn basic IIIF concepts and technologies, and will work with IIIF-hosted content to explore the benefits and scholar use-cases through discussion and hands-on exercises. No prior experience is assumed, but you will need to bring a laptop and have a GitHub account to participate in all the hands-on exercises. If you do not already have one, you can sign up for a GitHub account here: https://github.com.
 
-### Hands-on: URI Parameters
+### Explore: URI Parameters
 * Image API Playground: https://www.learniiif.org/image-api/playground
 * Image Request URI Syntax (IIIF documentation): https://iiif.io/api/image/2.1/#image-request-uri-syntax
 * {scheme}://{server}{/prefix}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}
     * http :// www.e-codices.unifr.ch/loris / cma/cma-1955-74 / cma-1955-74_000b.jp2 / 650,2300,1000,750 / pct:50 / 0 / default.jpg
 
-### Hands-on: IIIF & Deep Zoom
+### Explore: IIIF & Deep Zoom
 * Pyramids - how IIIF enables Deep Zoom: http://tomcrane.github.io/presentations/tile-exploder.html
 
-###
+### Explore: info.json
+* Revisit the Image API Playground: https://www.learniiif.org/image-api/playground
+* Essentially: what can we do with a particular image
+    * how far we can zoom in
+    * possible transformations
+    * available services (e.g. auth, physical dimension info)
+https://iiif.io/api/image/2.1/#image-information
+
+### Hands-on: Leaflet-IIIF
+* 
