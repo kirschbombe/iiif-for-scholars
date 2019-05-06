@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenSeadragon Demo - IIIF Tiled</title>
+    <script type="text/javascript" src='openseadragon.min.js'></script>
+    <style type="text/css">
+        .openseadragon1 {
+            width: 800px;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p>Default OpenSeadragon viewer from IIIF Tile Source.</p>
+    <p>This depends on a remote server providing a IIIF Image API endpoint.</p>
+</div>
+<div id="contentDiv" class="openseadragon1"></div>
+<script type="text/javascript">
+
+
+    /*
+     *TODO: experiment with different info.json URLs
+     */
+    var infoJson = "https://libimages.princeton.edu/loris/pudl0033/2007/04003/00000001.jp2/info.json"
+
+
+    var viewer = OpenSeadragon({
+        // debugMode: true,
+        id: "contentDiv",
+        prefixUrl: "images/",
+        tileSources: infoJson,
+
+        showNavigator: true,
+        showNavigationControl: true,
+        zoomPerClick: 2.0,
+        zoomPerScroll: 1.2,
+    });
+
+</script>
+</body>
+</html>

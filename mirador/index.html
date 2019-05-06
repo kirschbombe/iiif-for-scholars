@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="mirador/css/mirador-combined.css">
+    <title>Mirador Viewer</title>
+    <style type="text/css">
+     #viewer {
+       width: 100%;
+       height: 100%;
+       position: fixed;
+     }
+    </style>
+  </head>
+  <body>
+    <div id="viewer"></div>
+
+    <script src="mirador/mirador.min.js"></script>
+    <script type="text/javascript">
+
+
+    /*
+    * TODO: experiment with different manifest.json URLs
+    */
+    var manifestList = [
+        { manifestUri: "https://iiif.lib.harvard.edu/manifests/drs:5981093", location: "Harvard University" },
+        { manifestUri: "https://iiif.lib.harvard.edu/manifests/via:olvwork576793", location: "Harvard University" }
+    ]
+    
+    
+    $(function() {
+        myMiradorInstance = Mirador({
+            id: "viewer",
+            layout: "1x1",
+            buildPath: "mirador/",
+            data: manifestList,
+            windowObjects: [],
+            annotationEndpoint: {
+                name:"Local Storage",
+                module: "LocalStorageEndpoint"
+            }
+        });
+    });
+
+    </script>
+  </body>
+</html>

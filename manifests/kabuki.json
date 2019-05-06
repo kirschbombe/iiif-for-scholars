@@ -1,0 +1,136 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://acfe5b01-026a-4d20-9348-16ea8ce32978",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://6d21c8eb-4ef8-4f6e-a587-58a3dd6baf5e",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://79cc8606-ebb0-4f9f-b066-f7c1fd9a17e9",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2350,
+					"width": 2000,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://b7b3f4bb-b86b-4008-ac1a-5fa0e98aa027",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif-kirschbombe.c9users.io/iiif/2/kabuki%2Fucla_bib1987273_no001_rs_001.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif-kirschbombe.c9users.io/iiif/2/kabuki%2Fucla_bib1987273_no001_rs_001.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2350,
+								"width": 2000
+							},
+							"on": "http://79cc8606-ebb0-4f9f-b066-f7c1fd9a17e9"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://8c39fb18-274b-4c50-8a30-ea85fb5cfbbd",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 8192,
+					"width": 5542,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d493d4a5-914b-4faa-bed1-8e6021a94619",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://stacks.stanford.edu/image/iiif/gz764sr2328%252F056_001_R_TC_46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://stacks.stanford.edu/image/iiif/gz764sr2328%252F056_001_R_TC_46",
+									"profile": "http://iiif.io/api/image/2/level2"
+								},
+								"height": 8192,
+								"width": 5542
+							},
+							"on": "http://8c39fb18-274b-4c50-8a30-ea85fb5cfbbd"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://295cbff2-ae86-48ba-aef9-bde0eb867565",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 0,
+					"width": 0,
+					"images": [],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
