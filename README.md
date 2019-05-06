@@ -40,7 +40,7 @@ https://iiif.io/api/image/2.1/#image-information
 
 ### Explore: IIIF Manifests
 * Let's first look at the manifest template in the `manifests` folder of the GitHub repo: `manifest-template.json`
-    * Can you spot the components of a manifest that we just discussed? (I included the placeholder `[image url]`) so you can see where the IIIF Image API URLs fit in a manifest)
+    * Can you spot the components of a manifest that we just discussed? (I included the placeholder `[image url]` so you can see where the IIIF Image API URLs fit in a manifest)
 * Explore the `toganoo-1.json` manifests
     * What other information can we find in this manifest?
     * What about "sequence"?
