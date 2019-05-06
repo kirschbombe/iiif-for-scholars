@@ -39,7 +39,10 @@ https://iiif.io/api/image/2.1/#image-information
     * Notice the section of the `leaflet.js` file where you can layer two different images. Why might we want to do that?
 
 ### Explore: IIIF Manifests
+* Let's first look at the manifest template in the `manifests` folder of the GitHub repo: `manifest-template.json`
+* [Add link to example manifest to explore]
 
 ### Hands-on: Building a Manifest
+* Let’s build a manifest with the Bodleian Manifest Editor! https://digital.bodleian.ox.ac.uk
 
 ### Hands-on: Set up your own Mirador
