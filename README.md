@@ -46,6 +46,6 @@ https://iiif.io/api/image/2.1/#image-information
     * What about "sequence"?
 
 ### Hands-on: Building a Manifest
-* Building a manifest with the Bodleian Manifest Editor: https://digital.bodleian.ox.ac.uk
+* Building a manifest with the Bodleian Manifest Editor: http://dmt.bodleian.ox.ac.uk/manifest-editor/
 
 ### Hands-on: Set up your own Mirador
