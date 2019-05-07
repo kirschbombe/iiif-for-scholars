@@ -47,5 +47,16 @@ https://iiif.io/api/image/2.1/#image-information
 
 ### Hands-on: Building a Manifest
 * Building a manifest with the Bodleian Manifest Editor: http://dmt.bodleian.ox.ac.uk/manifest-editor/
+* Export your new manifest and add it to the `manifests` folder in our GitHub repo
 
 ### Hands-on: Set up your own Mirador
+* The Mirador app is setup in our GitHub repo (see the `mirador` folder?)
+* Since we are using GitHub Pages, we can view the live Mirador app in our browser by adding `/mirador` to our site URL (like we did with Leaflet-IIIF above)
+* Back in the GitHub repo, view the `mirador` folder. You should see another folder, also named `mirador` and and `index.html` file. The `index.html` file is what we'll work with to customize our Mirador instance.
+* Open the `index.html` file.
+    * Take a look at the different sections. What info are we presenting? How does this correlate to what you see on in the live Mirador view?
+    * We have one manifest available for viewing right now. How might you add the manifest that you created with the Bodleian editor?
+* Let's play with some configurations: https://github.com/ProjectMirador/mirador/wiki/Configuration-Guides
+    * How would you configure kabuki to load on open?
+    * ...set the default view for kabuki to the Book Viewer?
+    * ...configure Mirador to open with two object windows?
