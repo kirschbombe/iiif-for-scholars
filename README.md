@@ -9,6 +9,14 @@ Access to image-based resources (manuscripts, artworks, maps, etc.) is fundament
 
 In this workshop, participants will learn basic IIIF concepts and technologies, and will work with IIIF-hosted content to explore the benefits and scholar use-cases through discussion and hands-on exercises. No prior experience is assumed, but you will need to bring a laptop and have a GitHub account to participate in all the hands-on exercises. If you do not already have one, you can sign up for a GitHub account here: https://github.com.
 
+### Schedule (tentative)
+* 11:00-11:15 -- Intro and Why IIIF?
+* 11:15-11:45 -- The IIIF Image API
+* 11:45-11:55 -- Break
+* 11:55-12:15 -- The IIIF Presentation API
+* 12:15-12:35 -- Creating a manifest
+* 12:35 -1:00 -- Setting up Mirador
+
 ### Explore: URI Parameters
 * Image API Playground: https://www.learniiif.org/image-api/playground
 * Image Request URI Syntax (IIIF documentation): https://iiif.io/api/image/2.1/#image-request-uri-syntax
