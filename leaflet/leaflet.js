@@ -20,7 +20,7 @@ map = L.map('map', {
 //).addTo(map);
 
 
-use this method to layer two separate image requestsinfo.json
+// use this method to layer two separate image requestsinfo.json
 var layer1 = L.tileLayer.iiif('https://stacks.stanford.edu/image/iiif/zf275jj8939%2FMartellus_300ppi_natural_color_panorama_WIP2/info.json', {
    fitBounds: false,
   }
