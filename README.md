@@ -1,4 +1,7 @@
 ## IIIF for Scholars: Sharing, Consuming, and Annotating the World’s Images
+
+[![DOI](https://zenodo.org/badge/185241561.svg)](https://zenodo.org/badge/latestdoi/185241561)
+
 Wednesday, May 8, 2019 - 11:00am to 1:00pm
 
 Research Library (Charles E. Young)Research Commons (RC) Classroom
