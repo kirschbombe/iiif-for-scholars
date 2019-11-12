@@ -1,6 +1,6 @@
-## IIIF for Scholars: Sharing, Consuming, and Annotating the World’s Images
-Tuesday, November 12, 2019 - 10:30am to 1:30pm
+## IIIF for Scholars: Sharing, Consuming, and Annotating the Worlds Images
 
+Tuesday, November 12, 2019 - 10:30am to 1:30pm
 YRL Research Commons, Scholarly Innovation Lab
 
 Slides: https://docs.google.com/presentation/d/1Zwl4WrGEQybS_bq2oFpjHdfAuc66fNjbVxFlyjX8meM/edit?usp=sharing
