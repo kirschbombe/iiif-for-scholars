@@ -1,0 +1,175 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/83fed239-c625-4f25-be08-506f3c25e024.json",
+	"@type": "sc:Manifest",
+	"label": "Ashmolean Museum Evans Architectural Plans D/4 with a secret van Gogh connection",
+	"description": "[Sketch plan of Room of the Stone Bench with reference to Shafts A and B]",
+	"metadata": [
+		{
+			"label": "Homepage",
+			"value": "<span><a href=\"https://digital.bodleian.ox.ac.uk/inquire/p/83fed239-c625-4f25-be08-506f3c25e024\">View on Digital Bodleian</a></span>"
+		},
+		{
+			"label": "Title",
+			"value": "[Sketch plan of Room of the Stone Bench with reference to Shafts A and B]"
+		},
+		{
+			"label": "Description",
+			"value": "Original pencil"
+		},
+		{
+			"label": "Extent",
+			"value": "630x710 mm"
+		},
+		{
+			"label": "Collection",
+			"value": "History and Politics"
+		},
+		{
+			"label": "Collection",
+			"value": "Archives and Modern Manuscripts"
+		},
+		{
+			"label": "Collection",
+			"value": "Ashmolean Museum"
+		},
+		{
+			"label": "Collection",
+			"value": "Arthur Evans Archive (Knossos Excavations)"
+		},
+		{
+			"label": "Subject",
+			"value": "Knossos (Extinct City)--Drains"
+		},
+		{
+			"label": "Subject",
+			"value": "Evans, Arthur  Sir  1851-1941"
+		},
+		{
+			"label": "Other Identifier",
+			"value": "Evans Architectural Plans D/4"
+		},
+		{
+			"label": "Record Created",
+			"value": "2015-07-10T00:00:00Z"
+		},
+		{
+			"label": "Holding Institution",
+			"value": "Ashmolean Museum, University of Oxford"
+		}
+	],
+	"rendering": {
+		"@id": "https://digital.bodleian.ox.ac.uk/inquire/p/83fed239-c625-4f25-be08-506f3c25e024",
+		"label": "View on Digital Bodleian",
+		"format": "text/html"
+	},
+	"attribution": "http://creativecommons.org/licenses/by-nc-sa/3.0/.",
+	"logo": {
+		"@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/2bf5b72e-993a-4f7b-97b8-421371e0ff99/full/256,/0/default.jpg",
+		"service": {
+			"@context": "http://iiif.io/api/image/2/context.json",
+			"profile": "http://iiif.io/api/image/2/level1.json",
+			"@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/2bf5b72e-993a-4f7b-97b8-421371e0ff99"
+		}
+	},
+	"thumbnail": {
+		"@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/83fed239-c625-4f25-be08-506f3c25e024/full/256,/0/default.jpg",
+		"service": {
+			"@context": "http://iiif.io/api/image/2/context.json",
+			"profile": "http://iiif.io/api/image/2/level1.json",
+			"@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/83fed239-c625-4f25-be08-506f3c25e024"
+		}
+	},
+	"viewingHint": "individuals",
+	"sequences": [
+		{
+			"@id": "https://iiif.bodleian.ox.ac.uk/iiif/sequence/83fed239-c625-4f25-be08-506f3c25e024_default.json",
+			"@type": "sc:Sequence",
+			"label": "Default",
+			"canvases": [
+				{
+					"@id": "http://5fb0c5b1-5ade-4d7a-96e4-6ae2195243a6",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2550,
+					"width": 2259,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://4a404b04-0c28-4ca2-9ce4-24221c1d5060",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ids.lib.harvard.edu/ids/iiif/47174892/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ids.lib.harvard.edu/ids/iiif/47174892",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"regionSquare",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"bitonal",
+												"gray",
+												"color"
+											],
+											"formats": [
+												"jpg",
+												"tif",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 2550,
+								"width": 2259
+							},
+							"on": "http://5fb0c5b1-5ade-4d7a-96e4-6ae2195243a6"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/83fed239-c625-4f25-be08-506f3c25e024.json",
+					"@type": "sc:Canvas",
+					"label": "Whole page",
+					"width": 14800,
+					"height": 8440,
+					"images": [
+						{
+							"@id": "https://iiif.bodleian.ox.ac.uk/iiif/annotation/83fed239-c625-4f25-be08-506f3c25e024.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/83fed239-c625-4f25-be08-506f3c25e024.json",
+							"resource": {
+								"@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/83fed239-c625-4f25-be08-506f3c25e024",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"width": 14800,
+								"height": 8440,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/83fed239-c625-4f25-be08-506f3c25e024"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"viewingDirection": "left-to-right"
+}
