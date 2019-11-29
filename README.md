@@ -1,6 +1,6 @@
 ## IIIF for Scholars: Sharing, Consuming, and Annotating the Worlds Images
 
-[Workshop slides](https://docs.google.com/presentation/d/e/2PACX-1vQFfsl0vXl0G9KnPZKlzJOABY_JSR-R2Q81331mI5Qp0cYUBAijbw8xjcGmYZ6dpAjONFvQuKjMXmP2/pub?start=false&loop=false&delayms=60000&slide=id.g48a2113b32_0_167)
+[Workshop slide deck](https://docs.google.com/presentation/d/e/2PACX-1vQFfsl0vXl0G9KnPZKlzJOABY_JSR-R2Q81331mI5Qp0cYUBAijbw8xjcGmYZ6dpAjONFvQuKjMXmP2/pub?start=false&loop=false&delayms=60000&slide=id.g48a2113b32_0_167)
 
 Access to image-based resources (manuscripts, artworks, maps, etc.) is fundamental to research, scholarship and the transmission of cultural knowledge. Yet much of the Internet’s image-based resources are locked up in silos, with access restricted to bespoke, locally built applications. IIIF (International Image Interoperability Framework), a framework for interoperable image delivery, gives an unprecedented level of uniform and rich access to image-based resources hosted around the world enabling scholars to view, annotate, and remix digital images (http://iiif.io).
 
