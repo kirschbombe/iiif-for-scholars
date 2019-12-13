@@ -21,6 +21,7 @@ In this workshop, participants will learn basic IIIF concepts and technologies, 
 
 ### Explore: URI Parameters
 * Image API Playground: https://www.learniiif.org/image-api/playground
+* Crop: https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.ucd.ie/loris/ivrla:10408
 * Image Request URI Syntax (IIIF documentation): https://iiif.io/api/image/2.1/#image-request-uri-syntax
 * {scheme}://{server}{/prefix}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}
     * http :// www.e-codices.unifr.ch/loris / cma/cma-1955-74 / cma-1955-74_000b.jp2 / 650,2300,1000,750 / pct:50 / 0 / default.jpg
