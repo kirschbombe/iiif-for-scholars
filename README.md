@@ -38,6 +38,7 @@ In this workshop, participants will learn basic IIIF concepts and technologies, 
 * Replace an item
 * Remove/add a window
 * Check out the Information panel
+* https://iiif.archivelab.org/iiif/alberteinstein_03_reel03/manifest.json
 
 ### Explore: IIIF Manifests
 * Let's go back to the Mirador demo and find the manifest for the van Gogh on the left
