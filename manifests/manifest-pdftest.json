@@ -1,11 +1,11 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://localhost/manifest.json",
+  "@id": "http:[path]/manifest.json",
   "@type": "sc:Manifest",
 
   "mediaSequences": [
     {
-      "@id": "https://wellcomelibrary.org/iiif/b17502792/xsequence/s0",
+      "@id": "http:[path]/xsequence/s0",
       "@type": "ixif:MediaSequence",
       "label": "XSequence 0",
       "elements": [
@@ -13,14 +13,14 @@
           "@id": "https://dl.library.ucla.edu/islandora/object/anen%3A261/datastream/OBJ/view%23.pdf",
           "@type": "foaf:Document",
           "format": "application/pdf",
-          "label": "Science and the public : a review of science communication and public attitudes to science in Britain : a joint report",
+          "label": "[Title here]",
           "metadata": [
             {
               "label": "pages",
-              "value": "137"
+              "value": "2"
             }
           ],
-          "thumbnail": "https://wellcomelibrary.org/pdfthumbs/b17502792/0/b17502792_Science and the Public.pdf.jpg"
+          "thumbnail": "..."
         }
       ]
     }
